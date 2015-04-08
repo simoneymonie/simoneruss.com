@@ -1,0 +1,102 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body{
+	background-image: url("../images/about.jpg");
+	background-position: center;
+	background-size: cover;
+ 	font-size: 16.5px;
+	color: #252525;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3{
+	background: none repeat scroll 0 0 #cfc6c2;
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+	letter-spacing: 1.25px;
+	padding: 10px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+#container{
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+	height: 485px;
+	width: 375px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 5px 0px 0px 5px;
+	margin-top: 40px;
+	float: right;
+}
+h1{
+	font-size: 59px;
+	line-height: 0.8;
+	margin: 30px 0 30px 4px;
+	color: brown;
+}
+
+p{
+	line-height: 25px;
+	margin: 0;
+	padding: 10px 20px 0 7px;
+	color: #3b3b3b;
+	text-align: justify;
+}
+#hire{
+	color: brown;
+}
+#icons{
+     text-align: center;
+  	 padding-top: 10px;
+  	 margin-bottom: 10px;
+}
+
